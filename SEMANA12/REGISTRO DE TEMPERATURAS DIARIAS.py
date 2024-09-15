@@ -1,12 +1,14 @@
 # Crear una matriz en 3D para almacenar datos de temperatura
 # Definimos las ciudades, días de la semana y semanas
 
+
 ciudades = ['Ciudad A - Cuenca', 'Ciudad B - Quito', 'Ciudad C - Loja']
 dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
 semanas = 4
 
 # Creamos una matriz 3D con temperaturas específicas
 # Dimensiones: [ciudades, días, semanas]
+
 matriz_temp = [
     [ # Ciudad A - Cuenca
         [20, 22, 21, 19], # Lunes
@@ -15,15 +17,6 @@ matriz_temp = [
         [22, 21, 23, 24], # Jueves
         [24, 25, 26, 25], # Viernes
         [26, 27, 28, 27], # Sábado
-        [23, 22, 24, 25]  # Domingo
-    ],
-    [ # Ciudad B - Quito
-        [25, 26, 27, 24], # Lunes
-        [26, 27, 28, 25], # Martes
-        [24, 25, 26, 27], # Miércoles
-        [27, 25, 26, 27], # Jueves
-        [29, 18, 17, 19], # Viernes
-        [15, 17, 20, 18], # Sábado
         [20, 22, 21, 15]  # Domingo
     ],
     [ # Ciudad C - Loja
@@ -34,8 +27,18 @@ matriz_temp = [
         [18, 17, 19, 20], # Viernes
         [19, 15, 25, 27], # Sábado
         [22, 25, 27, 29]  # Domingo
+    ],
+    [ # Ciudad B - Quito
+        [25, 26, 27, 24], # Lunes
+        [26, 27, 28, 25], # Martes
+        [24, 25, 26, 27], # Miércoles
+        [27, 25, 26, 27], # Jueves
+        [29, 18, 17, 19], # Viernes
+        [15, 17, 20, 18], # Sábado
+        [23, 22, 24, 25]  # Domingo
     ]
 ]
+
 # Calcular el promedio de temperaturas para cada ciudad por semanas
 
 for ciudad in range(len(matriz_temp)): # ciudades
