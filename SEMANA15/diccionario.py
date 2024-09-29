@@ -43,5 +43,3 @@ def buscar_informacion(diccionario):
 
 # Llamar a la función de búsqueda
 buscar_informacion(informacion_personal)
-
-

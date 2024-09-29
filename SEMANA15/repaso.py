@@ -75,3 +75,4 @@ def buscar_informacion_integrantes(diccionario):
 
 # Llamar a la función de búsqueda
 buscar_informacion_integrantes(informacion_integrantes)
+
